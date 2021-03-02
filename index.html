@@ -8,17 +8,14 @@
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous"/>
         <link rel="stylesheet" href="style.css">
-        <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
     <body>
-        <div class="ui grid centered " id="grid">
-            <div class="fourteen wide tablet six wide computer column field ui raised segment centered animate__animated animate__fadeIn" id="card">
+        <div class="ui grid centered container fluid" id="grid">
+            <div class="fifteen wide tablet eight wide computer column field ui raised segment centered animate__animated animate__fadeIn" id="card">
                 <h1 class="ui header">
                     <div class="content ">
-                        Login
+                        Sign in
                         <div class="sub header">Enter now and start to chat with family and friends!</div>
                     </div>
                 </h1>
@@ -34,17 +31,38 @@
                     </div>
                     <div class="field">
 
-
                         <label>Password</label>
                         <div class="ui left icon input fluid">
-
-                            <input type="password">
+                            <input type="password" placeholder="Password">
                             <i class="lock icon"></i>
+                            
+                        </div>
+                        <a class="left floated" href="">Forgot password?</a>
+                    </div>
+                    <div class="inline field">
+                        <div class="ui toggle checkbox">
+                            <input type="checkbox" tabindex="0">
+                            <label>Remember me</label>
                         </div>
                     </div>
                     <button class="ui green basic submit button fluid">Login</button>
                 </div>
                 <div class="ui horizontal divider">or</div>
+                <br>
+                <div class="ui grid centered">
+                    <button class="ui icon pink basic button">
+                        <i class="instagram icon"></i>
+                        Instagram
+                    </button>
+                    <button class="ui icon blue basic button">
+                        <i class="facebook icon "></i>
+                        Facebook
+                    </button>
+                    <button class="ui icon black basic button">
+                        <i class="github icon"></i>
+                        Github
+                    </button>
+                </div>
             </div>
         </div>
     </body>
